@@ -1,0 +1,51 @@
+Configura Git:
+Antes de empezar, asegúrate de configurar tu nombre de usuario y tu dirección de correo electrónico en Git, ya que estos detalles se utilizarán para identificar tus contribuciones en el repositorio:
+
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+
+Crea un nuevo repositorio en GitHub:
+Ve a GitHub y crea un nuevo repositorio. Luego, copia la URL del repositorio.
+
+Crea un nuevo directorio para tu proyecto:
+Puedes crear un directorio nuevo para tu proyecto y luego ingresar a él:
+
+
+mkdir nombre_del_directorio
+cd nombre_del_directorio
+
+Inicializa el repositorio local:
+Inicializa un nuevo repositorio Git en tu directorio:
+
+
+git init
+
+Agrega tu código al repositorio:
+Copia o mueve tus archivos de código al directorio del proyecto.
+
+Agrega los archivos al área de preparación:
+Agrega los archivos a Git para que estén listos para ser confirmados:
+
+
+git add .
+
+Realiza tu primer commit:
+Haz tu primer commit con un mensaje descriptivo:
+
+
+git commit -m "Mensaje descriptivo de tu commit"
+
+Asocia tu repositorio local con el repositorio remoto en GitHub:
+Usa la URL que copiaste al crear el repositorio en GitHub:
+
+
+git remote add origin <URL_del_repositorio>
+
+Sube tus cambios al repositorio remoto:
+Sube tus commits al repositorio remoto en GitHub:
+
+
+git push -u origin master
+
+Ahora tu repositorio local está sincronizado con el repositorio en GitHub. Puedes continuar trabajando en tu proyecto y subiendo cambios usando comandos como git add, git commit, y git push.
